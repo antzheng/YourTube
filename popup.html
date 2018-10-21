@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+
+<head>
+    <meta charset = "utf-8">
+    <title>Menu</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+
+
+
+<body>
+
+<table>
+
+  <tr>
+
+    <td>
+      <p id="playSpeed" style="text-align: left; padding-left: 10%; padding-right: 10%;">Speed: 1x</p>
+      <p style="text-align: left; padding-left: 10%; padding-right: 10%;">
+        <button type="button" id="down">-</button>
+        <button type="button" id="up">+</button>
+      </p>
+    </td>
+
+  </tr>
+
+  <tr>
+
+    <td>
+      <p id ="toggleMirrorText" style="text-align: left; padding-left: 10%; padding-right: 10%">Mirror: Off</p>
+      <p style="text-align: left; padding-left: 10%; padding-right: 10%;">
+        <label class="switch">
+          <input id="toggleMirror" type="checkbox">
+          <span class="toggle"></span>
+        </label>
+      </p>
+    </td>
+
+  </tr>
+
+  <tr>
+
+    <td>
+      <p id="slideRotation" style="text-align: left; padding-left: 10%; padding-right: 10%;">Rotation: 0°</p>
+      <p style="text-align: left; padding-left: 10%; padding-right: 10%;">
+        <input type="range" min="-360" max="360" value="0" class="slider" id="myRange">
+      </p>
+    </td>
+
+  </tr>
+
+  <tr>
+
+    <td>
+      <p id="toggleCommentsText" style="text-align: left; padding-left: 10%; padding-right: 10%">Comments: On</p>
+      <p style="text-align: left; padding-left: 10%; padding-right: 10%;">
+        <label class="switch">
+          <input id="toggleComments" type="checkbox" checked>
+          <span class="toggle"></span>
+        </label>
+      </p>
+    </td>
+
+  </tr>
+
+  <tr>
+
+    <td>
+      <p id="toggleRecommendedText" style="text-align: left; padding-left: 10%; padding-right: 10%">Recommended: On</p>
+      <p style="text-align: left; padding-left: 10%; padding-right: 10%;">
+        <label class="switch">
+          <input id="toggleRecommended" type="checkbox" checked>
+          <span class="toggle"></span>
+        </label>
+      </p>
+    </td>
+
+  </tr>
+
+
+</table>
+
+
+
+
+<script src="buttons.js"></script>
+
+</body>
+
+
+
+
+</html>
